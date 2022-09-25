@@ -1,0 +1,48 @@
+.header__container {
+  background-image: url("/public/mobile/bg-pattern-header.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 136px;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 2.2rem;
+}
+
+.header__mode-selector {
+  display: flex;
+  align-items: center;
+}
+
+.header__mode-selector img {
+  width: 18px;
+  height: 18px;
+}
+
+/* Setting up input tag to look like a mode selector */
+
+@media only screen and (min-width: 768px) {
+  .header__container {
+    background-image: url("/public/tablet/bg-pattern-header.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 160px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .header__container {
+    background-image: url("/public/desktop/bg-pattern-header.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 160px;
+  }
+
+  .header__wrapper {
+    max-width: 78%;
+  }
+}

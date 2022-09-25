@@ -1,0 +1,19 @@
+.App {
+  min-height: 100vh;
+}
+
+.hide {
+  display: none;
+}
+
+.night-mode-background {
+  background: #121721 !important;
+}
+
+.night-mode-tile-background {
+  background: #19202d !important;
+}
+
+.night-mode-text {
+  color: #fff !important;
+}

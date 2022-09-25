@@ -1,0 +1,31 @@
+.job-info__container {
+  margin-top: 2rem;
+}
+
+.job-info__content {
+  margin: 2rem 0 1rem;
+  line-height: 1.8;
+  color: #6e8098;
+}
+
+.list__container {
+  line-height: 1.8;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.list__container img,
+.list__number {
+  margin-right: 1.5rem;
+}
+
+.list__number {
+  font-weight: 700;
+  color: #5964e0;
+}
+
+.list__item {
+  color: #6e8098;
+  width: 98%;
+}
