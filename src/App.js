@@ -21,8 +21,6 @@ function App() {
     setWidth(window.innerWidth);
   };
 
-  console.log(tileData);
-
   const handleSearch = () => {
     // Iterating through tileData and retrieving only values that are the same
     // as input parameters
@@ -48,6 +46,7 @@ function App() {
     setTitleInput("");
     setLocInput("");
     setFullTime("");
+    setLightBoxToggle(false);
   };
 
   useEffect(() => {

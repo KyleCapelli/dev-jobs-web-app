@@ -15,6 +15,7 @@ const LightBox = ({
     setLocInput("");
     setFullTime(false);
   };
+
   return (
     <div className="lightbox__container">
       <img
